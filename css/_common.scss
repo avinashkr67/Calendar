@@ -1,0 +1,39 @@
+.container-common {
+    @extend .common-container;
+    @include primary-flex();
+
+    h3 {
+        @extend .common-h3;
+    }
+
+    table {
+        @include primary-border();
+        @extend .common-table;
+
+        th {
+            @include primary-border();
+            @extend .common-th;
+        }
+
+        td {
+            @include primary-border();
+            @extend .common-td;
+
+            a {
+                @include primary-anchor();
+            }
+        }
+
+        .fes {
+            @extend .common-fes;
+        }
+
+        .nex {
+            @extend .common-nex;
+
+            a {
+                font-size: 1rem;
+            }
+        }
+    }
+}

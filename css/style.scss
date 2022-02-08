@@ -1,0 +1,341 @@
+$primary-color: black;
+
+// include mixin property
+
+@mixin primary-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin primary-anchor {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+@mixin primary-border {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+@mixin primary-sizing {
+    font-size: 0.53rem;
+    padding: 0.3rem;
+}
+
+// extend property
+
+.common-container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.common-h3 {
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(255, 142, 142);
+    background-color: rgb(176, 245, 108);
+    padding: 15px;
+}
+
+.common-table {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.common-th {
+    padding: 0.2rem;
+    background-color: rgb(114, 214, 181);
+    height: 1.5rem;
+}
+.common-td {
+    background-color: rgb(201, 248, 201);
+    height: 2rem;
+}
+
+.common-fes {
+    background-color: rgb(238, 209, 172);
+}
+
+.common-nex {
+    background-color: #dfdfdf;
+}
+
+// basic properties
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(230, 230, 230, 0.815);
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+    font-size: 25px;
+}
+
+// navigation starts
+
+nav {
+    width: 100%;
+    padding-top: 0.5rem;
+    @include primary-flex();
+
+    a {
+        @include primary-anchor();
+        margin-left: 0.5rem;
+        padding: 0.4rem;
+        border-radius: 2rem;
+        background-color: rgb(38, 182, 182);
+    }
+
+    span {
+        color: $primary-color;
+        font-size: 1.2rem;
+        padding-right: 1rem;
+        cursor: pointer;
+    }
+}
+
+.nav-menu {
+    display: none;
+
+    ul {
+        @include primary-flex();
+        list-style: none;
+        padding: 0 1rem;
+    }
+
+    li {
+        a {
+            @include primary-anchor();
+            padding: 0.3rem;
+        }
+
+        a:hover {
+            border-radius: 2rem;
+            background-color: rgb(150, 150, 150);
+            color: #fff;
+        }
+    }
+}
+
+// navigation ends
+
+.container {
+    width: 100%;
+    margin: 1rem auto;
+    text-align: center;
+    @include primary-flex();
+    justify-content: space-around;
+
+    table {
+        @include primary-border();
+        @include primary-sizing();
+        width: 30%;
+        margin-bottom: 0.7rem;
+
+        th {
+            @include primary-border();
+            background-color: rgb(114, 214, 181);
+            padding: 0.3rem ;
+        }
+
+        td {
+            @include primary-border();
+            background-color: rgb(201, 248, 201);
+            padding: 0.2rem 0;
+        }
+
+        .month {
+            width: 100%;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        .custom-c {
+            background-color: khaki;
+            font-size: 0.8rem;
+        }
+    }
+
+    .fes {
+        background-color: rgb(238, 209, 172);
+        cursor: pointer;
+    }
+
+    .nex {
+        background-color: #dfdfdf;
+    }
+}
+
+.footer {
+    @include primary-flex();
+    border-top: 1px solid $primary-color;
+
+
+    .footer-logo {
+        margin: 0rem 1rem;
+        padding-top: 0.6rem;
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-right: 0.8rem;
+        }
+    }
+
+    .footer-text{
+        font-size: 0.8rem;
+        margin-right: 1rem;
+
+    }
+}
+
+@import "common";
+
+.jan_dl {
+    margin-top: 3.8rem;
+    margin-right: 2rem;
+
+    li {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.feb_dl {
+    margin-top: 3rem;
+    margin-right: 0.4rem;
+
+    li {
+        font-size: 0.95rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.march_dl {
+    margin-top: 3.5rem;
+    margin-right: 2rem;
+
+    li {
+        font-size: 1.4rem;
+        margin-bottom: 1.4rem;
+    }
+}
+
+.april_dl {
+    margin-top: 3rem;
+    margin-right: 0.8rem;
+
+    li {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.may_dl {
+    margin-top: 4.5rem;
+    margin-right: 1rem;
+
+    li {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.june_dl {
+    margin-top: 6rem;
+    margin-right: 5rem;
+
+    li {
+        font-size: 1.2rem;
+    }
+}
+
+.july_dl {
+    margin-top: 5.5rem;
+    margin-right: 2rem;
+
+    li {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.august_dl {
+    margin-top: 3rem;
+    margin-right: 3rem;
+
+    li {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.sept_dl {
+    margin-top: 5rem;
+    margin-right: 2rem;
+
+    li {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.oct_dl {
+    margin-top: 3.2rem;
+    margin-right: 2rem;
+
+    li {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.nov_dl {
+    margin-top: 5rem;
+
+    li {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.dec_dl {
+    margin-top: 5rem;
+    margin-right: 2rem;
+
+    li {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+// holidays
+
+.container-hol {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    @include primary-flex();
+
+    h3 {
+        width: 100%;
+        color: $primary-color;
+        text-align: center;
+    }
+
+    h5 {
+        text-align: center;
+    }
+}
+
+// media query starts
+
+@import "media";
+
+

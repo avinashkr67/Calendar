@@ -1,0 +1,337 @@
+// // media query starts
+
+// @media only screen and (max-width: 1432px) {
+//     .container {
+//         table {
+//             th {
+//                 font-size: 0.49rem;
+//             }
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 1350px) {
+//     .container {
+//         table {
+//             th {
+//                 font-size: 0.44rem;
+//             }
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 1250px) {
+//     .container {
+//         table {
+//             th {
+//                 font-size: 0.39rem;
+//             }
+
+//             .custom-c {
+//                 font-size: 0.6rem;
+//             }
+//         }
+//     }
+// }
+
+// @media only screen and ( max-width: 1150px) {
+//     .container {
+//         table {
+//             th {
+//                 font-size: 0.43rem;
+//                 padding:  0.3rem 0.1rem;
+//             }
+
+//             td {
+//                 font-size: 0.45rem;
+//             }
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 1024px) {
+//     .nav-menu {
+//         li {
+//             a {
+//                 padding: 0 1.5rem;
+//             }
+//         }
+//     }
+
+//     .common-container {
+//         table {
+//             width: 90%;
+//             margin: 0 auto;
+//         }
+
+//         dl {
+//             width: 90%;
+//             margin: 1rem auto;
+//         }
+//     }
+// }
+
+
+// @media only screen and (max-width: 768px) {
+//     .nav-menu {
+//         li {
+//             a {
+//                 padding: 0.5rem;
+//                 font-size: 0.8rem;
+//             }
+//         }
+//     }
+
+//     .common-container {
+//         table {
+//             th {
+//                 font-size: 0.8rem;
+//             }
+
+//             td {
+//                 font-size: 0.8rem;
+//             }
+
+//             .nex {
+//                 a {
+//                     font-size: 0.8rem;
+//                 }
+//             }
+//         }
+
+//         dl {
+//             width: 90%;
+//             margin: 1rem auto;
+
+//             li {
+//                 font-size: 0.8rem;
+//             }
+//         }
+//     }
+
+//     .container-hol {
+//         width: 95%;
+//     }
+// }
+
+// @media only screen and (max-width: 425px) {
+//     nav {
+//         a {
+//             font-size: 0.6rem;
+//         }
+
+//         span {
+//             font-size: 1rem;
+//             margin-top: 0.3rem;
+//         }
+//     }
+
+//     .nav-menu {
+//         li {
+//             a {
+//                 font-size: 0.5rem;
+//             }
+//         }
+//     }
+
+//     .footer {
+//         text-align: center;
+
+//         .footer-logo {
+//             width: 100%;
+
+//             a {
+//                 font-size: 0.8rem;
+//             }
+//         }
+
+//         .footer-text {
+//             width: 100%;
+//             font-size: 0.7rem;
+//         }
+//     }
+
+//     .common-container {
+//         h3 {
+//             font-size: 0.8rem;
+//         }
+
+//         table {
+//             th {
+//                 font-size: 0.45rem;
+//             }
+
+//             td {
+//                 font-size: 0.6rem;
+//             }
+
+//             .nex {
+//                 a {
+//                     font-size: 0.6rem;
+//                 }
+//             }
+//         }
+
+//         .nex {
+//             a {
+//                 font-size: 0.6rem;
+//             }
+//         }
+
+//         dl {
+//             li {
+//                 font-size: 0.6rem;
+//             }
+//         }
+//     }
+
+//     .container-hol {
+//         h3 {
+//             font-size: 1rem;
+//         }
+//         h5 {
+//             font-size: 0.8rem;
+//         }
+
+//         p {
+//             font-size: 0.6rem;
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 375px) {
+//     .nav-menu {
+//         li {
+//             a {
+//                 font-size: 0.5rem;
+//             }
+//         }
+//     }
+
+//     .footer {
+//         .footer-logo {
+//             a {
+//                 font-size: 0.7rem;
+//             }
+//         }
+
+//         .footer-text {
+//             font-size: 0.6rem;
+//         }
+//     }
+
+//     .common-container {
+//         h3 {
+//             font-size: 0.6rem;
+//         }
+
+//         table {
+//             th {
+//                 font-size: 0.4rem;
+//             }
+
+//             td {
+//                 font-size: 0.5rem;
+//             }
+
+//             .nex {
+//                 a {
+//                     font-size: 0.5rem;
+//                 }
+//             }
+//         }
+
+//         .nex {
+//             a {
+//                 font-size: 0.5rem;
+//             }
+//         }
+
+//         dl {
+//             li {
+//                 font-size: 0.5rem;
+//             }
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 320px) {
+//     nav {
+//         a {
+//             font-size: 0.45rem;
+//         }
+
+//         span {
+//             font-size: 0.9rem;
+//         }
+//     }
+
+//     .nav-menu {
+//         li {
+//             a {
+//                 font-size: 0.5rem;
+//             }
+//         }
+//     }
+
+//     .container{
+//         table{
+//             th{
+//                 font-size: 0.4rem;
+//             }
+//         }
+//     }
+//     .footer {
+//         .footer-logo {
+//             a {
+//                 font-size: 0.6rem;
+//             }
+//         }
+
+//         .footer-text {
+//             font-size: 0.5rem;
+//         }
+//     }
+
+//     .common-container {
+//         h3 {
+//             font-size: 0.5rem;
+//             padding: 0.3rem;
+//         }
+
+//         table {
+//             th {
+//                 font-size: 0.3rem;
+//             }
+
+//             td {
+//                 font-size: 0.4rem;
+//             }
+
+//             .nex {
+//                 a {
+//                     font-size: 0.4rem;
+//                 }
+//             }
+//         }
+
+//         dl {
+//             li {
+//                 font-size: 0.4rem;
+//             }
+//         }
+//     }
+
+//     .container-hol {
+//         h3 {
+//             font-size: 0.8rem;
+//         }
+//         h5 {
+//             font-size: 0.7rem;
+//         }
+
+//         p {
+//             font-size: 0.5rem;
+//         }
+//     }
+// }

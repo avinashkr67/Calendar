@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/5e36746137.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="holidays.html">Holidays</a>
+
+        <a href="index.html">Calendar 2022</a>
+
+        <span class="fas fa-bars menu-bar"></span>
+
+    </nav>
+
+    <div class="nav-menu">
+
+        <ul>
+
+            <li><a href="jan.html">January</a></li>
+            <li><a href="feb.html">February</a></li>
+            <li><a href="march.html">March</a></li>
+            <li><a href="april.html">April</a></li>
+            <li><a href="may.html">May</a></li>
+            <li><a href="june.html">June</a></li>
+            <li><a href="july.html">July</a></li>
+            <li><a href="august.html">August</a></li>
+            <li><a href="sept.html">September</a></li>
+            <li><a href="oct.html">October</a></li>
+            <li><a href="nov.html">November</a></li>
+            <li><a href="dec.html">December</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="container">
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">January</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td class="fes fes1">1</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td class="fes fes2">9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td class="fes fes3">13</td>
+                <td class="fes fes4">14</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+            </tr>
+
+            <tr>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td class="fes fes5">26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+            </tr>
+
+            <tr>
+                <td>30</td>
+                <td>31</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+                <td class="nex">3</td>
+                <td class="nex">4</td>
+                <td class="nex">5</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">February</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">30</td>
+                <td class="nex">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td class="fes fes6">5</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td class="fes fes7">15</td>
+                <td class="fes fes8">16</td>
+                <td>17</td>
+                <td>18</td>
+                <td class="fes fes9">19</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td class="fes fes10">26</td>
+            </tr>
+
+            <tr>
+                <td>27</td>
+                <td>28</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+                <td class="nex">3</td>
+                <td class="nex">4</td>
+                <td class="nex">5</td>
+            </tr>
+
+        </table>
+
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">March</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">27</td>
+                <td class="nex">28</td>
+                <td class="fes fes11">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td class="fes fes12">17</td>
+                <td class="fes fes13">18</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+            </tr>
+
+            <tr>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+            </tr>
+
+        </table>
+
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">April</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">27</td>
+                <td class="nex">28</td>
+                <td class="nex">29</td>
+                <td class="nex">30</td>
+                <td class="nex">31</td>
+                <td>1</td>
+                <td class="fes fes14">2</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td class="fes fes15">10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td class="fes fes16">14</td>
+                <td class="fes fes17">15</td>
+                <td>16</td>
+            </tr>
+
+            <tr>
+                <td class="fes fes18">17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td class="fes fes19">29</td>
+                <td>30</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">May</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td class="fes fes20">3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td class="fes fes21">9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td class="fes fes22">16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+
+            <tr>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+                <td class="nex">3</td>
+                <td class="nex">4</td>
+            </tr>
+
+        </table>
+
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">June</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">29</td>
+                <td class="nex">30</td>
+                <td class="nex">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">July</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">26</td>
+                <td class="nex">27</td>
+                <td class="nex">28</td>
+                <td class="nex">29</td>
+                <td class="nex">30</td>
+                <td class="fes fes23">1</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td class="fes fes24">10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+            </tr>
+
+            <tr>
+                <td>31</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+                <td class="nex">3</td>
+                <td class="nex">4</td>
+                <td class="nex">5</td>
+                <td class="nex">6</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">August</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td class="fes fes25">8</td>
+                <td>9</td>
+                <td>10</td>
+                <td class="fes fes26">11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td class="fes fes27">15</td>
+                <td class="fes fes28">16</td>
+                <td>17</td>
+                <td>18</td>
+                <td class="fes fes29">19</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="fes fes30">31</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+                <td class="nex">3</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">September</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">28</td>
+                <td class="nex">29</td>
+                <td class="nex">30</td>
+                <td class="nex">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td class="fes fes31">8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td class="fes fes32">16</td>
+                <td>17</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+
+            </tr>
+
+            <tr>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="nex">1</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">October</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">25</td>
+                <td class="nex">26</td>
+                <td class="nex">27</td>
+                <td class="nex">28</td>
+                <td class="nex">29</td>
+                <td class="nex">30</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td class="fes fes33">2</td>
+                <td>3</td>
+                <td>4</td>
+                <td class="fes fes34">5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td class="fes fes35">9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td class="fes fes36">13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+            </tr>
+
+            <tr>
+                <td>23</td>
+                <td class="fes fes37">24</td>
+                <td>25</td>
+                <td class="fes fes38">26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+            </tr>
+
+            <tr>
+                <td class="fes fes39">30</td>
+                <td>31</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+                <td class="nex">3</td>
+                <td class="nex">4</td>
+                <td class="nex">5</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">November</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">30</td>
+                <td class="nex">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td class="fes fes40">8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td class="fes fes41">24</td>
+                <td>25</td>
+                <td>26</td>
+            </tr>
+
+            <tr>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="nex">1</td>
+                <td class="nex">2</td>
+                <td class="nex">3</td>
+            </tr>
+
+        </table>
+
+        <table>
+
+            <tr class="month">
+                <th colspan="7" class="custom-c">December</th>
+            </tr>
+
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+
+            <tr>
+                <td class="nex">27</td>
+                <td class="nex">28</td>
+                <td class="nex">29</td>
+                <td class="nex">30</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>
+
+            <tr>
+
+                <td class="fes fes42">25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td class="fes fes43">29</td>
+                <td>30</td>
+                <td>31</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-logo">
+            <a href="https://www.facebook.com/profile.php?id=100009019319473" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/ig.avinashavi/" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/_A4_Avi_" class="fab fa-twitter"></a>
+        </div>
+
+        <div class="footer-text">
+            <p>Created by Avinash &copy; 2022-25</p>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

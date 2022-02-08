@@ -1,0 +1,660 @@
+.common-container, .container-common {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.common-h3, .container-common h3 {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #ff8e8e;
+  background-color: #b0f56c;
+  padding: 15px;
+}
+
+.common-table, .container-common table {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.common-th, .container-common table th {
+  padding: 0.2rem;
+  background-color: #72d6b5;
+  height: 1.5rem;
+}
+
+.common-td, .container-common table td {
+  background-color: #c9f8c9;
+  height: 2rem;
+}
+
+.common-fes, .container-common table .fes {
+  background-color: #eed1ac;
+}
+
+.common-nex, .container-common table .nex {
+  background-color: #dfdfdf;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(230, 230, 230, 0.815);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 25px;
+}
+
+nav {
+  width: 100%;
+  padding-top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  background-color: #26b6b6;
+}
+
+nav span {
+  color: black;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  padding: 0 1rem;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+}
+
+.nav-menu li a:hover {
+  border-radius: 2rem;
+  background-color: #969696;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin: 1rem auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 0.53rem;
+  padding: 0.3rem;
+  width: 30%;
+  margin-bottom: 0.7rem;
+}
+
+.container table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #72d6b5;
+  padding: 0.3rem;
+}
+
+.container table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #c9f8c9;
+  padding: 0.2rem 0;
+}
+
+.container table .month {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.container table .custom-c {
+  background-color: khaki;
+  font-size: 0.8rem;
+}
+
+.container .fes {
+  background-color: #eed1ac;
+  cursor: pointer;
+}
+
+.container .nex {
+  background-color: #dfdfdf;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-top: 1px solid black;
+}
+
+.footer .footer-logo {
+  margin: 0rem 1rem;
+  padding-top: 0.6rem;
+}
+
+.footer .footer-logo a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 0.8rem;
+}
+
+.footer .footer-text {
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+
+.container-common {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-common table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.container-common table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.container-common table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.container-common table td a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.container-common table .nex a {
+  font-size: 1rem;
+}
+
+.jan_dl {
+  margin-top: 3.8rem;
+  margin-right: 2rem;
+}
+
+.jan_dl li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.feb_dl {
+  margin-top: 3rem;
+  margin-right: 0.4rem;
+}
+
+.feb_dl li {
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.march_dl {
+  margin-top: 3.5rem;
+  margin-right: 2rem;
+}
+
+.march_dl li {
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.april_dl {
+  margin-top: 3rem;
+  margin-right: 0.8rem;
+}
+
+.april_dl li {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.may_dl {
+  margin-top: 4.5rem;
+  margin-right: 1rem;
+}
+
+.may_dl li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.june_dl {
+  margin-top: 6rem;
+  margin-right: 5rem;
+}
+
+.june_dl li {
+  font-size: 1.2rem;
+}
+
+.july_dl {
+  margin-top: 5.5rem;
+  margin-right: 2rem;
+}
+
+.july_dl li {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.august_dl {
+  margin-top: 3rem;
+  margin-right: 3rem;
+}
+
+.august_dl li {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.sept_dl {
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+.sept_dl li {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.oct_dl {
+  margin-top: 3.2rem;
+  margin-right: 2rem;
+}
+
+.oct_dl li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nov_dl {
+  margin-top: 5rem;
+}
+
+.nov_dl li {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.dec_dl {
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+
+.dec_dl li {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.container-hol {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-hol h3 {
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.container-hol h5 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1440px) {
+  .container table th {
+    font-size: 0.49rem;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .container table th {
+    font-size: 0.44rem;
+  }
+  .common-container table, .container-common table {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .common-container dl, .container-common dl {
+    width: 60%;
+    margin: 2rem auto;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .container table th {
+    font-size: 0.39rem;
+  }
+  .container table .custom-c {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .container table th {
+    font-size: 0.43rem;
+    padding: 0.3rem 0.1rem;
+  }
+  .container table td {
+    font-size: 0.45rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-menu li a {
+    padding: 0 1.5rem;
+  }
+  .container table {
+    width: 45%;
+  }
+  .common-container table, .container-common table {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .common-container dl, .container-common dl {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .container-hol {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .common-container table th, .container-common table th {
+    font-size: 0.9rem;
+  }
+  .common-container table td, .container-common table td {
+    font-size: 0.9rem;
+  }
+  .common-container table .nex a, .container-common table .nex a {
+    font-size: 0.9rem;
+  }
+  .common-container dl, .container-common dl {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .common-container dl li, .container-common dl li {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu li a {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .common-container table th, .container-common table th {
+    font-size: 0.8rem;
+  }
+  .common-container table td, .container-common table td {
+    font-size: 0.8rem;
+  }
+  .common-container table .nex a, .container-common table .nex a {
+    font-size: 0.8rem;
+  }
+  .common-container dl, .container-common dl {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .common-container dl li, .container-common dl li {
+    font-size: 0.8rem;
+  }
+  .container-hol {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 686px) {
+  .container table {
+    width: 70%;
+  }
+  .container table th {
+    font-size: 0.55rem;
+  }
+  .container table td {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .common-container table th, .container-common table th {
+    font-size: 0.45rem;
+  }
+  .common-container table td, .container-common table td {
+    font-size: 0.45rem;
+  }
+  .common-container table .nex a, .container-common table .nex a {
+    font-size: 0.45rem;
+  }
+  .common-container dl li, .container-common dl li {
+    font-size: 0.45rem;
+  }
+  .container-hol {
+    width: 97%;
+  }
+  .container-hol p {
+    font-size: 0.72rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  nav a {
+    font-size: 0.6rem;
+  }
+  nav span {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+  .nav-menu li a {
+    font-size: 0.5rem;
+  }
+  .container table {
+    width: 90%;
+  }
+  .container table th {
+    font-size: 0.45rem;
+  }
+  .container table td {
+    font-size: 0.4rem;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .footer-logo {
+    width: 100%;
+  }
+  .footer .footer-logo a {
+    font-size: 0.8rem;
+  }
+  .footer .footer-text {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .common-container h3, .container-common h3 {
+    font-size: 0.7rem;
+  }
+  .common-container table th, .container-common table th {
+    font-size: 0.4rem;
+  }
+  .common-container table td, .container-common table td {
+    font-size: 0.5rem;
+  }
+  .common-container table .nex a, .container-common table .nex a {
+    font-size: 0.5rem;
+  }
+  .common-container .nex a, .container-common .nex a {
+    font-size: 0.5rem;
+  }
+  .common-container dl li, .container-common dl li {
+    font-size: 0.5rem;
+  }
+  .container-hol h3 {
+    font-size: 1rem;
+  }
+  .container-hol h5 {
+    font-size: 0.8rem;
+  }
+  .container-hol p {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nav-menu li a {
+    font-size: 0.5rem;
+  }
+  .container table th {
+    font-size: 0.4rem;
+  }
+  .footer .footer-logo a {
+    font-size: 0.7rem;
+  }
+  .footer .footer-text {
+    font-size: 0.6rem;
+  }
+  .common-container h3, .container-common h3 {
+    font-size: 0.5rem;
+  }
+  .common-container table th, .container-common table th {
+    font-size: 0.3rem;
+  }
+  .common-container table td, .container-common table td {
+    font-size: 0.4rem;
+  }
+  .common-container table .nex a, .container-common table .nex a {
+    font-size: 0.4rem;
+  }
+  .common-container .nex a, .container-common .nex a {
+    font-size: 0.4rem;
+  }
+  .common-container dl li, .container-common dl li {
+    font-size: 0.4rem;
+  }
+  .container-hol h3 {
+    font-size: 0.85rem;
+  }
+  .container-hol h5 {
+    font-size: 0.75rem;
+  }
+  .container-hol p {
+    font-size: 0.55rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  nav a {
+    font-size: 0.45rem;
+  }
+  nav span {
+    font-size: 0.9rem;
+  }
+  .nav-menu li a {
+    font-size: 0.5rem;
+  }
+  .footer .footer-logo a {
+    font-size: 0.6rem;
+  }
+  .footer .footer-text {
+    font-size: 0.5rem;
+  }
+  .common-container h3, .container-common h3 {
+    font-size: 0.5rem;
+    padding: 0.3rem;
+  }
+  .common-container table th, .container-common table th {
+    font-size: 0.3rem;
+  }
+  .common-container table td, .container-common table td {
+    font-size: 0.4rem;
+  }
+  .common-container table .nex a, .container-common table .nex a {
+    font-size: 0.4rem;
+  }
+  .common-container dl li, .container-common dl li {
+    font-size: 0.4rem;
+  }
+  .container-hol h3 {
+    font-size: 0.8rem;
+  }
+  .container-hol h5 {
+    font-size: 0.7rem;
+  }
+  .container-hol p {
+    font-size: 0.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
